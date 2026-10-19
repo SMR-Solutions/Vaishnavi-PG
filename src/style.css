@@ -1155,7 +1155,7 @@ button {
   align-items: flex-start;
   justify-content: space-between;
   gap: 1rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.15rem;
 }
 
 .room-title {
