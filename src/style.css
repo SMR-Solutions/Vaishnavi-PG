@@ -1857,87 +1857,6 @@ button {
   margin-top: auto;
 }
 
-/* ==========================================================================
-   TESTIMONIALS & REVIEWS
-   ========================================================================== */
-
-.reviews-section {
-  background: #FFFFFF;
-}
-
-.reviews-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-}
-
-.review-card {
-  background: var(--bg-page);
-  border-radius: var(--radius-lg);
-  padding: 2rem;
-  border: 1px solid var(--border-card);
-  display: flex;
-  flex-direction: column;
-  transition: var(--transition);
-}
-
-.review-card:hover {
-  transform: translateY(-5px);
-  background: #FFFFFF;
-  border-color: var(--rose-soft);
-  box-shadow: var(--shadow-md);
-}
-
-.review-stars {
-  color: var(--champagne-gold);
-  letter-spacing: 3px;
-  font-size: 1.15rem;
-  margin-bottom: 1.15rem;
-}
-
-.review-quote {
-  font-size: 0.95rem;
-  color: var(--text-secondary);
-  line-height: 1.65;
-  margin-bottom: 1.75rem;
-  font-style: italic;
-  flex: 1;
-}
-
-.reviewer-meta {
-  display: flex;
-  align-items: center;
-  gap: 0.85rem;
-}
-
-.reviewer-avatar {
-  width: 44px;
-  height: 44px;
-  background: linear-gradient(135deg, var(--rose-quartz) 0%, var(--mulberry-main) 100%);
-  color: #FFFFFF;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 0.9rem;
-}
-
-.reviewer-avatar.parent {
-  background: linear-gradient(135deg, #10B981 0%, #047857 100%);
-}
-
-.reviewer-name {
-  font-family: var(--font-heading);
-  font-weight: 700;
-  font-size: 0.95rem;
-  color: var(--mulberry-dark);
-}
-
-.reviewer-role {
-  font-size: 0.78rem;
-  color: var(--text-muted);
-}
 
 /* ==========================================================================
    LOCATION & NEIGHBORHOOD
@@ -2696,10 +2615,6 @@ button {
   .safety-box {
     grid-template-columns: 1fr;
     padding: 2.5rem;
-  }
-
-  .reviews-grid {
-    grid-template-columns: 1fr;
   }
 
   .footer-container {
